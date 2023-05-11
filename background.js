@@ -9,7 +9,7 @@ browser.webRequest.onCompleted.addListener(
             count++;
             // Update the badge
             browser.browserAction.setBadgeText({text: String(count)});
-            browser.browserAction.setBadgeBackgroundColor({color: "blue"});
+            browser.browserAction.setBadgeBackgroundColor({color: "red"});
         }
     },
     // Filter to only listen for the URLs we're interested in
