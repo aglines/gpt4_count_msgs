@@ -5,13 +5,17 @@
 - add manifest.json
 - add bkgrd.js, popup.js for addon, popup.html
 - created icon
-- tested badge count
-
-## To do
-- calculate time elapsed so as to no longer count older msgs
+- tested badge count - happy path SEEMS ok so far...
+- keep track of timestamps, ignore msgs older than 3h
 - fix popup.html font, display etc
 
+## To do
+- update in realtime
+
+## Maybe someday
+- enact browser persistence btwn sessions
+- port to other browsers .. Mullvad?
 
 ### FAQ
-- "If you're worried, why not just use the API, since it is pay-per-token?" True. the focus here is specifically the web interface. Token counts & their costs are a future project 
+- "If you're worried about overuse, just use the API, since it's pay-per-token?" True. the focus here is specifically the web interface. Token counts & their costs are a future project 
 
