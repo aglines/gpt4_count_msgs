@@ -1,5 +1,5 @@
-# MAIN
-- Goal : create a Firefox add-on to show the number of ChatGPT4 messages sent recently, to stay under the cap (currently 25 msgs per 3 hours)
+# ChatGPT4 Message Cap tracker
+- This is a Firefox add-on to show the number of ChatGPT4 messages sent recently, to stay under the cap (currently 25 msgs per 3 hours)
 ## Done
 - find the event to listen for - a POST request method to URL https://chat.openai.com/backend-api/moderations 
 - add manifest.json
