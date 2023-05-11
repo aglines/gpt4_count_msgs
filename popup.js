@@ -1,7 +1,7 @@
 // Get the count from the background script and display it
 function updateCount() {
     browser.runtime.getBackgroundPage().then(page => {
-        document.getElementById('count').textContent = "Message sent " + page.getCount() + " times.";
+        document.getElementById('count').textContent = "Msgs used : " + page.getCount() + " times.";
     });
 }
 
